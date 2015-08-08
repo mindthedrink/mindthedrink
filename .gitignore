@@ -15,3 +15,20 @@
 /log/*
 !/log/.keep
 /tmp
+
+.ruby-gemset
+
+# IDEs
+.idea
+/coverage
+
+# LOCAL TESTS
+manual_sandbox.rb
+manual_sandbox.json
+*.swp
+
+# Bower components (uncomment once CI machine has Bower installed)
+vendor/assets/bower_components/
+
+# Node.js modules
+node_modules/

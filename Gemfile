@@ -60,6 +60,14 @@ gem 'cancancan'
 # Console utils
 gem 'progress_bar'
 
+# Form
+gem 'simple_form'
+
+# JSON
+gem 'oj'
+gem 'oj_mimic_json'
+
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'

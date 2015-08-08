@@ -1,0 +1,27 @@
+{
+  "name": "mindthedrink_app",
+  "version": "0.0.0",
+  "authors": [
+    "Eduardo Turiño <eturino@eturino.com>"
+  ],
+  "license": "No license",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "sass-mq": "~2.2.0",
+    "normalize-scss": "~3.0.1",
+    "requirejs": "~2.1.15",
+    "almond": "~0.3.0",
+    "enquire": "~2.1.2",
+    "requirejs-text": "~2.0.12",
+    "backbone-events-standalone": "~0.2.4",
+    "fastclick": "~1.0.3",
+    "picturefill": "~2.3.1",
+    "lodash-amd": "~2.4.1",
+    "handlebars": "~3.0.0",
+    "matchMedia": "~0.2.0",
+    "placeholdr": "https://github.com/allanweir/placeholdr.git#1.0.2",
+    "jquery.easie.js": "~1.0.2",
+    "imagesloaded": "~3.1.8"
+  }
+}
