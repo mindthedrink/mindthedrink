@@ -1,0 +1,4 @@
+
+// Have to explicitly add the .scss to prevent Rails from getting confused by .css and .scss
+@import "normalize-scss/normalize.scss";
+@import "base/base";

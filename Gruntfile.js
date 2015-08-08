@@ -42,9 +42,9 @@ module.exports = function(grunt) {
                 cleanup: ['fill'],
                 svg: {
                     id: 'icons',
-                    class: 'icons'
+                    class: 'icons',
                 },
-                inheritviewbox: true
+                inheritviewbox: true,
             },
             icons: {
                 files: {

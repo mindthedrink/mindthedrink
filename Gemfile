@@ -78,6 +78,10 @@ group :development do
   gem 'rb-fchange', require: false
   gem 'rb-fsevent', require: false
   gem 'rb-inotify', require: false
+
+  # Assets gen
+  gem 'scss-lint', require: false
+  gem 'bitters', require: false
 end
 
 group :development, :test do
