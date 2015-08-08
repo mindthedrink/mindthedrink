@@ -22,6 +22,10 @@
     "matchMedia": "~0.2.0",
     "placeholdr": "https://github.com/allanweir/placeholdr.git#1.0.2",
     "jquery.easie.js": "~1.0.2",
-    "imagesloaded": "~3.1.8"
+    "imagesloaded": "~3.1.8",
+    "bourbon": "~4.2.3",
+    "normalize-css": "~3.0.3",
+    "neat": "~1.7.2",
+    "bitters": "~1.0.0"
   }
 }
