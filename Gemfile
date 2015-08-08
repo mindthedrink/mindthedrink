@@ -3,8 +3,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
+# use Postgres
+gem 'pg'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,3 +45,50 @@ group :development, :test do
   gem 'spring'
 end
 
+
+#random text generation
+gem 'faker'
+
+#friendly url
+gem 'friendly_id'
+
+# Users
+gem 'devise'
+gem 'canard'
+gem 'cancancan'
+
+# Console utils
+gem 'progress_bar'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'guard'
+  gem 'guard-bundler'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'rb-fchange', require: false
+  gem 'rb-fsevent', require: false
+  gem 'rb-inotify', require: false
+end
+
+group :development, :test do
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'capybara-mechanize' #if we need to check external http
+  gem 'launchy'
+
+  gem 'database_cleaner'
+  gem 'email_spec'
+
+  gem 'selenium-webdriver'
+  gem 'poltergeist'
+
+  gem 'timecop'
+
+  gem 'codeclimate-test-reporter', require: nil
+end
