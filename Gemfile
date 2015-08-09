@@ -51,6 +51,7 @@ gem 'faker'
 
 #friendly url
 gem 'friendly_id'
+gem 'babosa'
 
 # Users
 gem 'devise'
